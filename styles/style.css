@@ -46,3 +46,29 @@ hr {
   font-size: 18px;
   color: #000000;
 }
+
+/* ----------------------
+    top blogs styles
+------------------------- */
+.blog {
+  display: flex;
+}
+.blog .thumbnail img {
+  width: 177px;
+  height: 117px;
+}
+.blog-info {
+  margin-left: 16px;
+}
+.blog-title {
+  font-style: 20px;
+}
+.blog-author {
+  color: #9f9f9f;
+  font-size: 16px;
+}
+.blog-author a {
+  text-decoration: none;
+  font-style: 16px;
+  color: #562eff;
+}
