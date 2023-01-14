@@ -15,15 +15,23 @@ body {
   width: 870px;
   padding: 30px;
 }
+hr {
+  border: 1px solid #d1d1d1;
+}
 /* top player styles */
+.top-players {
+  margin-bottom: 30px;
+}
 .section-title {
   font-size: 24px;
   color: #562eff;
+  margin-top: 3px;
 }
 .players {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   /* grid-template-columns: 1fr 1fr 1fr; */
+  row-gap: 30px;
 }
 .player {
   display: flex;
@@ -35,4 +43,6 @@ body {
 }
 .player-name {
   margin-left: 16px;
+  font-size: 18px;
+  color: #000000;
 }
